@@ -1,0 +1,21 @@
+
+    <div class="container mt-4">
+        <h3 class="text-center text-decoration my-4">This page covers the various knowledges of application development. Enjoy the posts here...</h3>
+        <div class="w-100 m-5">
+            <div class="w-75 m-auto p-4 mt-4">
+                      <% posts.forEach(post => { %>
+                      <div class="shadow m-3 p-4">
+                          <h5 class="card-title my-color"><%= post.title %></h5>
+                          <p class="card-text"><%= post.content %></p> 
+                      </div>
+                      <% }) %>
+                  </div> 
+           
+        </div>
+    </div>
+
+
+
+  
+
+
